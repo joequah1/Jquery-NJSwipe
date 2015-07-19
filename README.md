@@ -53,6 +53,10 @@ Swipe Down
     $('#swipe_area').njSwipe('swipedown', function () {
     
     });
+    
+### Demo 
+
+[JSFiddle](http://jsfiddle.net/joequah1/7y10k4o0/1/)
 
 ## References
 Javascript Touch Events
