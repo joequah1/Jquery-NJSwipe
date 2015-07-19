@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Image Merging</title>
+    
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    
+    <!-- Latest compiled and minified CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="css/style.css"/>
+</head>
+<body>
+    <div class="container">
+        <h1>Swipe</h1>
+        
+        <p>Swipe in the area <abbr title="Hyper Text Markup Language">HTML</abbr>.</p>
+        
+        <div id="swipe_area"></div>
+    </div>
+    <script src="//code.jquery.com/jquery-1.11.3.min.js"></script>
+    <script src="js/jquery.ninjoe.njswipe-1.0.0.js"></script>
+    <script>
+        $('#swipe_area').njSwipe('swipeleft', function () {console.log('suc22cess');});
+    </script>
+</body>
+</html>
