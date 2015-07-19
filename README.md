@@ -1,14 +1,32 @@
 # Jquery-NJSwipe
 
-Swipe Events
+Super Lightweight Jquery Swipe Events.
 
 ## Installation 
-    
-    <script src=""></script>
 
 ### Using with RawGit CDN 
 
-    <script src=""></script>  
+    <script src="https://cdn.rawgit.com/joequah1/Jquery-NJSwipe/master/web/js/jquery.njswipe-1.0.0.min.js"></script> 
+    
+For more infomation bout RawGit, please visit [FAQ](https://rawgit.com/faq)
+
+## Definitions
+
+### swiperight
+
+Triggered when user swipe in right direction over the element
+
+### swipeleft
+
+Triggered when user swipe in left direction over the element
+
+### swipeup
+
+Triggered when user swipe in up direction over the element
+
+### swipedown
+
+Triggered when user swipe in down direction over the element
 
 ## Usage 
 
@@ -36,11 +54,10 @@ Swipe Down
     
     });
 
-## Thanks 
-Javascript Touch Events 
+## References
+Javascript Touch Events
 - http://www.javascriptkit.com/javatutors/touchevents2.shtml
 
-## References
 jQuery.fn.extend() 
 - http://api.jquery.com/jquery.fn.extend/
 

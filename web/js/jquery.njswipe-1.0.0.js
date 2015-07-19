@@ -16,6 +16,7 @@ jQuery.fn.extend({
 
         var _this = this;
 
+        this.direction = direction;
         this.startX;
         this.startY;
         this.startTime;
@@ -66,9 +67,11 @@ jQuery.fn.extend({
                     direction = distY < 0 ? 'swipeup' : 'swipedown';
                 }
             }
-
-            _this.triggerEvent(direction);
-
+            
+            /* Trigger only if its the same direction */
+            if (_this.direction == direction) {
+                _this.triggerEvent(direction);
+            }
         };
 
         this.triggerEvent = function (direction) {

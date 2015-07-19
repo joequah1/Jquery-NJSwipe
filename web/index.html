@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <title>Image Merging</title>
+    <title>Mobile Swipe Events</title>
     
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     
@@ -11,16 +11,28 @@
 </head>
 <body>
     <div class="container">
-        <h1>Swipe</h1>
+        <h1>Mobile Swipe Events</h1>
         
         <p>Swipe in the area <abbr title="Hyper Text Markup Language">HTML</abbr>.</p>
         
         <div id="swipe_area"></div>
+        
+        <div>
+            <p>Swiperight <span class="badge swiperight">0</span></p>
+            <p>Swipeleft <span class="badge swipeleft">0</span></p>
+            <p>Swipeup <span class="badge swipeup">0</span></p>
+            <p>Swipedown <span class="badge swipedown">0</span></p>
+        </div>
     </div>
     <script src="//code.jquery.com/jquery-1.11.3.min.js"></script>
-    <script src="js/jquery.ninjoe.njswipe-1.0.0.js"></script>
+    <script src="js/jquery.njswipe-1.0.0.js"></script>
     <script>
-        $('#swipe_area').njSwipe('swipeleft', function () {console.log('suc22cess');});
+        var swiperight = 0, swipeleft = 0, swipeup = 0, swipedown = 0;
+        
+        $('#swipe_area').njSwipe('swiperight', function () {swiperight++;$('.swiperight').html(swiperight);});
+        $('#swipe_area').njSwipe('swipeleft', function () {swipeleft++;$('.swipeleft').html(swipeleft)});
+        $('#swipe_area').njSwipe('swipeup', function () {swipeup++;$('.swipeup').html(swipeup)});
+        $('#swipe_area').njSwipe('swipedown', function () {swipedown++;$('.swipedown').html(swipedown)});
     </script>
 </body>
 </html>
