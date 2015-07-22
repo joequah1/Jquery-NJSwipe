@@ -62,7 +62,7 @@ Swipe Down
     
 ## Demo 
 
-[JSFiddle](http://jsfiddle.net/joequah1/7y10k4o0/1/)
+[JSFiddle](http://jsfiddle.net/joequah1/7y10k4o0/2/)
 
 ## References
 Javascript Touch Events
