@@ -6,7 +6,13 @@ Super Lightweight Jquery Swipe Events.
 
 ### Using with RawGit CDN 
 
+#### Version 1.0.0
+
     <script src="https://cdn.rawgit.com/joequah1/Jquery-NJSwipe/master/web/js/jquery.njswipe-1.0.0.min.js"></script> 
+    
+#### Version 1.0.01
+
+    <script src="https://cdn.rawgit.com/joequah1/Jquery-NJSwipe/master/web/js/jquery.njswipe-1.0.01.min.js"></script> 
     
 For more infomation bout RawGit, please visit [FAQ](https://rawgit.com/faq)
 
@@ -54,7 +60,7 @@ Swipe Down
     
     });
     
-### Demo 
+## Demo 
 
 [JSFiddle](http://jsfiddle.net/joequah1/7y10k4o0/1/)
 
